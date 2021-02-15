@@ -178,8 +178,8 @@ function draw() {
     }
     textSize(20);
     text("Score: "+ score, 900, 50);
-    fill("black");
-    text("When your score becomes 20, you travel to 2020", 100,50);
+    fill("white");
+    text("Play Snake! When your score becomes 20, you travel to 2020", 100,50);
 
     if (score === 20){
       gameState = "2020";
@@ -210,7 +210,7 @@ function draw() {
  fill("red");
  text("Score: "+ score2, 800, 50);
  textSize(18);
-  text("Defeat Covid-19 to win! Press 'Space' to squirt Sanitizer.", 50,50);
+  text("Defeat Covid-19 to win! Press 'Space' to squirt Sanitizer and use the mouse to move", 50,50);
   if (score2 === 10){
     gameState = "end";
   }
